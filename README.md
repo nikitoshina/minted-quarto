@@ -2,8 +2,8 @@
 title: "Minted-quarto Example"
 filters:
   - minted-quarto
-format: 
-    pdf: default
+format:
+  pdf: default
 keep-tex: true
 pdf-engine-opts:
   - -shell-escape
@@ -17,6 +17,8 @@ minted:
   options:
     cachedir: _minted-cache
 ---
+
+> Use .qmd as an example
 
 This filter adds minted and listings environments to Quarto. It is based on the [minted](https://ctan.org/pkg/minted) package for LaTeX. The minted package uses the Python Pygments library to highlight code. Since the minted package is not included in the default LaTeX distribution, you will need to install it separately. Please refer to the [minted documentation](https://ctan.org/pkg/minted) for installation instructions.
 
